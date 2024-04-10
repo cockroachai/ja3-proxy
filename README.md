@@ -71,5 +71,5 @@ docker compose logs -f
 ## 测试服务
 
 ```bash
-curl --insecure --proxy http://你的用户名:你的密码@cockroachai@127.0.0.1:9988 'https://chat.openai.com/'
+curl --insecure --proxy http://你的用户名:你的密码@127.0.0.1:9988 'https://chat.openai.com/'
 ```
