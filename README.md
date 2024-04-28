@@ -38,13 +38,13 @@ services:
       - "16524:16524"
       - "9988:9988"
     environment:
-      WEBSITE_URL: "https://chat.openai.com/auth/login" # 要过盾的目标网站
+      WEBSITE_URL: "https://chat.openai.com/" # 要过盾的目标网站
       PROXY: http://username:password@IP:端口  # 代理服务器信息
       CLIENTKEY: "4733exxxxxx" # yescaptcha 的 clientKey
       LOCALPROXYUSER: "自行设置一个用户名" # ja3代理服务用户名
       LOCALPROXYPASS: "自行设置一个密码" # ja3代理服务密码
 ```
-
+如不需过盾，可不配置 PROXY和CLIENTKEY
 启动
 ```bash
 docker compose up -d
