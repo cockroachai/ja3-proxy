@@ -45,6 +45,8 @@ services:
       LOCALPROXYPASS: "自行设置一个密码" # ja3代理服务密码
 ```
 如不需过盾，可不配置 PROXY和CLIENTKEY
+
+
 启动
 ```bash
 docker compose up -d
