@@ -77,6 +77,6 @@ curl --insecure --proxy http://你的用户名:你的密码@127.0.0.1:9988 'http
 ```
 
 ## 赞助商信息
-![](20240206-180420.jpg)
+[![](20240206-180420.jpg)](https://www.capsolver.com/?utm_source=github&utm_medium=banner_github&utm_campaign=ja3-proxy)
 
 [https://www.capsolver.com/](https://www.capsolver.com/?utm_source=github&utm_medium=banner_github&utm_campaign=ja3-proxy)
